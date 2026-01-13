@@ -1,0 +1,3 @@
+[submodule "coap/src/main/cpp/thirdparty/libcoap"]
+	path = coap/src/main/cpp/thirdparty/libcoap
+	url = https://github.com/obgm/libcoap
