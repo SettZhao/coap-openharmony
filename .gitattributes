@@ -1,0 +1,17 @@
+# Treat ArkTS files as TypeScript for GitHub language statistics
+*.ets linguist-language=TypeScript
+
+# Treat JSON5 files as JSON
+*.json5 linguist-language=JSON
+
+# Mark vendored/generated code to exclude from statistics
+coap/src/main/cpp/thirdparty/** linguist-vendored
+coap/libs/** linguist-vendored
+oh_modules/** linguist-vendored
+entry/oh_modules/** linguist-vendored
+entry/build/** linguist-generated
+coap/build/** linguist-generated
+hvigor/** linguist-vendored
+
+# Documentation
+*.md linguist-documentation

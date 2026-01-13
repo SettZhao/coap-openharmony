@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "coap",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}

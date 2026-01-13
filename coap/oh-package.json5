@@ -1,0 +1,18 @@
+{
+  "types": "",
+  "type": "module",
+  "tags": [
+  ],
+  "keywords": [
+  ],
+  "name": "@harmony-lib/coap",
+  "version": "1.0.0-rc.0",
+  "description": "",
+  "repository": "https://github.com/SettZhao/coap-openharmony",
+  "main": "index.ts",
+  "author": "SettZhao",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "libcoap.so": "file:./src/main/cpp/types/libcoap",
+  }
+}
