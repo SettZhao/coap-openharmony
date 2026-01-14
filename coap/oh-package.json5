@@ -13,6 +13,6 @@
   "author": "SettZhao",
   "license": "Apache License 2.0",
   "dependencies": {
-    "libcoap.so": "file:./src/main/cpp/types/libcoap",
+    "libcoap_napi.so": "file:./src/main/cpp/types/libcoap_napi",
   }
 }

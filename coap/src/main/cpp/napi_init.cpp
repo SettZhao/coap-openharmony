@@ -21,17 +21,17 @@ static napi_value Init(napi_env env, napi_value exports)
 }
 EXTERN_C_END
 
-static napi_module demoModule = {
+static napi_module coapModule = {
     .nm_version = 1,
     .nm_flags = 0,
     .nm_filename = nullptr,
     .nm_register_func = Init,
-    .nm_modname = "coap",
+    .nm_modname = "coap_napi",
     .nm_priv = ((void*)0),
     .reserved = { 0 },
 };
 
-extern "C" __attribute__((constructor)) void RegisterCoapModule(void)
+extern "C" __attribute__((constructor)) void RegisterModule(void)
 {
-    napi_module_register(&demoModule);
+    napi_module_register(&coapModule);
 }
